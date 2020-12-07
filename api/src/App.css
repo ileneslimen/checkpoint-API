@@ -1,0 +1,41 @@
+.App{background-color: rgba(102, 51, 153, 0.294)}
+#projects h2 {
+  text-align: center;
+}
+
+.projects-container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.168);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+
+  background-color: rgba(255, 254, 192, 0.507);
+  list-style: none;
+  cursor: pointer;
+  width: 300px;
+  height: 500px;
+  padding-top: 30px;
+  /* margin : top/bottom  left/right  */
+  margin: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+.project-card:hover {
+  background-color: #a7bea975;
+  transform: translateY(-4px);
+}
+
+.project-card a {
+  color: rgb(61, 170, 221);
+  text-decoration: underline;
+}
+
+.project-card p {
+  padding: 10px;
+}
+.project-card img {
+  width: 100%;
+}
